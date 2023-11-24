@@ -1,0 +1,59 @@
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+body {
+    background-color: #CB6363;
+}
+
+::placeholder {
+    color: #ffff !important;
+}
+
+.container {
+    max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+    color: #ffff;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.todos li {
+    background-color: #D87E7E;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+span {
+    color: #ffffff;
+}
+
+ul i {
+    color: #ffffff;
+}
+
+ul i:hover {
+    color: #c7c7c7;
+    transition: all .5s;
+}
+
+.filtered {
+    display: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .6;
+    transition: all .5s;
+    cursor: pointer;
+}

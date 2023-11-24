@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" sizes="32x32"  href="favicon-32x32.png">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+
+    <div class="container">
+      <header class="text-center text-light my-4">
+        <h1 class="mb-4">Todo App <span><a href="index.html">📒</a></span></h1>
+        <form class="search">
+          <input class="form-control" type="text" name="search" placeholder="Start your search here...">
+        </form>
+      </header>
+
+        <ul class="list-group text-light todos">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Sleep</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Eat</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Code</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Bodybuilding</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Repeat</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+        </ul>
+
+        <form class="text-center my-4 add">
+          <label class="text-light h2">+ Add List</label>
+          <input class="form-control m-auto" type="text" name="add" placeholder="Add new task...">
+        </form>
+    </div>
+
+    
+    <script src="https://kit.fontawesome.com/83c228b27d.js" crossorigin="anonymous"></script>
+    <script src="todo.js"></script>
+  </body>
+</html>
